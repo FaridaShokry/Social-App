@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #00308f;
+  --color-brand-dark: #00246b;
+  --color-page: #f0f1f6;
+  --font-sans: "Fira Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-page text-slate-900 font-sans;
+}
